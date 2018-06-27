@@ -44,6 +44,7 @@ public class OptionsEvent implements Listener {
 
     }
 
+    @EventHandler
     public void onPlayerQuit​(PlayerQuitEvent event) {
 
         Player player = event.getPlayer();

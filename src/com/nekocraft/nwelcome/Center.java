@@ -56,8 +56,8 @@ public class Center extends JavaPlugin {
 
     public void configdata() {
         Center.config.add("joinBroadcast", false);
-        Center.config.add("playerJoinMsg", "&7[&a+&7] &a %playername% join the game.");
-        Center.config.add("playerLeaveMsg","&7[&c-&7] &c %playername% left the game.");
+        Center.config.add("playerJoinMsg", "&7[&a+&7] &a %playername% &ajoin the game.");
+        Center.config.add("playerLeaveMsg","&7[&c-&7] &c %playername% &cleft the game.");
         Center.config.add("joinMessage", Arrays.asList("&f", "&f", "&f", "&f", "&f", "&6           &lWelcome to &9&lYOUR-SERVER-NAME", "&f", "&e                    Redes Sociales:", "&f", "&6              &lWebsite: yourserver.net", "&6            &lStore: &9store.yourserver.net"));
         Center.config.add("hoverTooltip", "Click me!");
         Center.config.add("clickEvents.click-open-website", "yourwebsite.com");
